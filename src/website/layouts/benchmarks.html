@@ -1,0 +1,55 @@
+{% extends "default.html" %}
+
+{% block content %}
+<section class="hero is-primary" style="background-image: url(/{{ hashes['images/bg-pattern-dark.png'] }})">
+  <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          {{ title }}
+        </h1>
+      </div>
+  </div>
+</section>
+<div class="container">
+  <section class="section">
+    <div class="content">
+      <p>Leveraging our experience with Node.js performance, Fastify has been built from the ground up to be <strong>as fast as possible</strong>.</p>
+
+      <p>All the code used for our benchmarks is <a href="https://github.com/fastify/benchmarks/">available on GitHub</a>.</p>
+
+      <p>Here's a brief summary on how fastify overhead performed against the some other well known Node.js web frameworks:</p>
+
+      {{ contents | safe }}
+
+      <div class="columns">
+        <div class="column is-8">
+          {% for framework in data.benchmarks.frameworks %}
+            <div class="box">
+              <div class="content">
+                <div class="level">
+                  <div class="level-left">
+                    <h2>{{ framework.name }}</h2>
+                  </div>
+                  <div class="level-right">
+                    <a href="{{ framework.repository }}" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
+                  </div>
+                </div>
+
+                <p>{{ framework.requests_sec }} req/sec {% if framework.test %}(<a href="{{ framework.test }}" target="_blank">Check the code</a>){% endif %}</p>
+                <progress class="progress {% if framework.best %}is-primary{% else %}is-info{% endif %}"
+                          value="{{ framework.requests_sec / data.benchmarks.reference | round(3) }}" max="1">
+                  {{ framework.requests_sec / data.benchmarks.reference * 100 | round(3) }}%
+                </progress>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <p>Please note that this is a synthetic, "hello world" benchmark that aims to evaluate the framework overhead. The overhead that each framework has on your application depends on your application, <strong>you should always benchmark if performance matters to you</strong>.</p>
+
+      <p>Do you want to provide feedback on our benchmarks? <a href="https://github.com/fastify/benchmarks/issues">Open an issue on GitHub</a> and we will get back to you!</p>
+    </div>
+  </section>
+</div>
+{% endblock %}

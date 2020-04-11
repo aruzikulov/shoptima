@@ -1,0 +1,79 @@
+- name: "heply"
+  image: "heply.svg"
+  link: "https://heply.it/"
+
+- name: "HospitalRun"
+  image: "hospitalrun.svg"
+  link: "https://hospitalrun.io/"
+
+- name: "hotstar"
+  image: "hotstar.svg"
+  link: "https://tech.hotstar.com/"
+
+- name: "Knock"
+  image: "knock.svg"
+  link: "https://www.knock.com"
+
+- name: "MIA Platform"
+  image: "mia-platform.svg"
+  link: "https://www.mia-platform.eu"
+
+- name: "Mr Porter"
+  image: "mrp.svg"
+  link: "https://www.mrporter.com"
+
+- name: "Nearform"
+  image: "nearform.svg"
+  link: "https://nearform.com"
+
+- name: "Nucleode"
+  image: "nucleode.svg"
+  link: "https://www.nucleode.com"
+
+- name: "Vectra"
+  image: "vectra.svg"
+  link: "https://vectra.ai"
+
+- name: "GEOLYTIX"
+  image: "geolytix.svg"
+  link: "https://geolytix.co.uk"
+
+- name: "car2go"
+  image: "car2go.svg"
+  link: "https://www.car2go.com"
+
+- name: "Codecks"
+  image: "codecks.svg"
+  link: "https://www.codecks.io/"
+
+- name: "MV Labs"
+  image: "mvlabs.svg"
+  link: "https://www.mvlabs.it"
+
+- name: "Radity"
+  image: "radity.svg"
+  link: "http://www.radity.com"
+
+- name: "RuneAudio"
+  image: "runeaudio.svg"
+  link: "http://www.runeaudio.com"
+
+- name: "Commons Host"
+  image: "commonshost.svg"
+  link: "https://commons.host"
+
+- name: "Unhandled"
+  image: "unhandled.svg"
+  link: "https://unhandled.net"
+
+- name: "Gumlet"
+  image: "gumlet.svg"
+  link: "https://www.gumlet.com"
+
+- name: "evilfactorylabs"
+  image: "evilfactorylabs.svg"
+  link: "https://evilfactory.id"
+
+- name: "UNIQ"
+  image: "uniq.svg"
+  link: "https://www.uniq.id/"
