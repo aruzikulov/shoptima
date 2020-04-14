@@ -1,2 +1,0 @@
-# shoptima
-welcome
