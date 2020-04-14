@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://hospitalrun.netlify.com/* http://hospitalrun.io/:splat 301!
+https://aruzikulov.github.io/shoptima/* https://shoptima.uz/:splat 301!
