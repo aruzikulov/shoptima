@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+  w[l] = w[l] || [];
+  w[l].push({
+    'gtm.start': new Date().getTime(),
+    event: 'gtm.js'
+  });
+  var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s),
+    dl = l != 'dataLayer' ? '&l=' + l : '';
+  j.async = true;
+  j.src =
+    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+  f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-NMXJHPF');
+  </script>
+  <!--End Google Tag Manager -->
+  <!-- meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free, easy-to-use software for developing world healthcare." />
+  <meta name="keywords" content="hospitalrun, nodejs, react, offline-first application, docker, modern hospital information system" />
+  <!-- Facebook Open Graph -->
+  <meta content="HospitalRun - Open source software for developing world hospitals" property="og:site_name" />
+  <meta property="og:locale" content="en_US" />
+  
+  <meta content="Why HospitalRun?" property="og:title" />
+   
+  <meta content="article" property="og:type" />
+   
+  <meta content="Free, easy-to-use software for developing world healthcare." property="og:description" />
+   
+  <meta content="http://localhost:4000/blog/why-hospitalrun/" property="og:url" />
+   
+  <meta content="/assets/img/kenya_medical_records_2.jpg" property="og:image" />
+     
+  <meta content="2016-06-07T06:00:00+08:00" property="article:published_time" />
+  
+  <!-- Twitter cards -->
+  <meta name="twitter:site" content="@hospitalrun" />
+  <meta name="twitter:creator" content="@" />
+  
+  <meta name="twitter:title" content="Why HospitalRun?" />
+   
+  <meta name="twitter:description" content="Free, easy-to-use software for developing world healthcare." />
+   
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/kenya_medical_records_2.jpg" />
+  
+  <!-- Site Title -->
+  <title>
+     Why HospitalRun? 
+  </title>
+  <!--  Add Favicon -->
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
+  <!-- Add CSS File -->
+  <link rel="stylesheet" href="/assets/css/app.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500,600" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMXJHPF"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- Loading -->
+<div class="loading-main">
+  <div class="pre-loader">
+    <div class="loading">
+      <div class="bounceball"></div>
+      <div class="text">LOADING</div>
+    </div>
+  </div>
+</div>
+<!-- Start Header Area -->
+<header class="header-area">
+  <div class="header-navigation">
+    <div class="container">
+      <div class="navigation-box">
+        <div class="navigation-left">
+          <a class="header-logo" href="http://localhost:4000">
+            <svg class="logo-svg header-logo" data-name="logo-svg" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1738.15 256.91"
+              enable-background="new 0 0 200 31.36" xml:space="preserve" width="200px">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff;
+                  }
+
+                  .cls-2 {
+                    fill: url(#linear-gradient);
+                  }
+
+                  .cls-3 {
+                    fill: url(#New_Gradient_Swatch);
+                  }
+                </style>
+                <linearGradient id="linear-gradient" x1="124.04" y1="119.89" x2="201.47" y2="253.99"
+                  gradientUnits="userSpaceOnUse">
+                  <stop offset="0.01" stop-color="#60d1bb" />
+                  <stop offset="0.5" stop-color="#1abc9c" />
+                  <stop offset="1" stop-color="#009b9e" />
+                </linearGradient>
+                <linearGradient id="New_Gradient_Swatch" x1="1466.89" y1="21.96" x2="1668.22" y2="370.67"
+                  gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#60d1bb" />
+                  <stop offset="0.5" stop-color="#1abc9c" />
+                  <stop offset="1" stop-color="#009b9e" />
+                </linearGradient>
+              </defs>
+              <title>logo</title>
+              <path class="cls-1"
+                d="M255.37,93.87h46.49V167.5h72.73V93.87h46.49V279.79H374.59V206.17H301.86v73.62H255.37Z"
+                transform="translate(-87.97 -85.23)" />
+              <path class="cls-1"
+                d="M439,211.36q0-34.65,19.19-53t57.89-18.35q38.94,0,58.16,18.21t19.2,53.09q0,71.31-77.36,71.32Q439,282.68,439,211.36Zm100.17,26.85c4.6-5.38,6.93-14.33,6.93-26.85s-2.37-21.45-7.09-26.83-12.36-8.08-22.93-8.08-18.21,2.72-22.81,8.22-6.93,14.38-6.93,26.69q0,18.78,6.93,26.85t22.81,8.08Q532.2,246.29,539.15,238.21Z"
+                transform="translate(-87.97 -85.23)" />
+              <path class="cls-1"
+                d="M631.21,280.35c-9.79-1.52-17.69-3.45-23.65-5.75V239.08a116.43,116.43,0,0,0,23,6.5,132.22,132.22,0,0,0,24.1,2.45q13.57,0,18.61-1.29c3.36-.87,5-2.94,5-6.21,0-2.7-1.62-4.91-4.91-6.64s-9.05-3.86-17.31-6.35l-12.41-4q-20.22-6.94-29.15-16t-9-25.56q0-41.86,63.5-41.86a171.72,171.72,0,0,1,25.11,1.88,128.45,128.45,0,0,1,21.35,4.77v34.93a79.55,79.55,0,0,0-18-5.33,104.92,104.92,0,0,0-19.19-1.88q-12.69,0-19,1.43t-6.35,6.06a6.18,6.18,0,0,0,4,5.92,139.28,139.28,0,0,0,15.58,5.33c3.85,1,7.8,2.14,11.84,3.48q16.17,4.9,25.11,10.53t12.71,13.43c2.49,5.19,3.76,11.73,3.76,19.62q0,20.79-16.3,31.62t-47.5,10.83A198,198,0,0,1,631.21,280.35Z"
+                transform="translate(-87.97 -85.23)" />
+              <path class="cls-1"
+                d="M740.9,143h40.43l2.3,11.84q17.89-14.73,43-14.73,63.23,0,63.22,68.43,0,36.36-17.31,55.28t-48.21,18.91q-21.68,0-37-8.95v68.41H740.9Zm94,95.26q7.64-10.4,7.65-30.59,0-19.06-6.79-26.26t-22.36-7.24a37.14,37.14,0,0,0-26,10.41V240a46.88,46.88,0,0,0,11.39,6.48,38,38,0,0,0,13.72,2.19Q827.23,248.62,834.87,238.21Z"
+                transform="translate(-87.97 -85.23)" />
+              <path class="cls-1" d="M919.32,177.32H899.09l4-34.37h62.66V279.79H919.32Zm-3.76-90.94h50.51v34.93H915.56Z"
+                transform="translate(-87.97 -85.23)" />
+              <path class="cls-1"
+                d="M1014.72,270q-12.3-12.69-12.29-36.08V178.16H984V143h18.46V114.38L1048.92,102v41h33.2l-2,35.21h-31.18v52.55c0,6.53,1.53,11.12,4.61,13.7s8.08,3.9,15,3.9a53.34,53.34,0,0,0,17-2.89V276.9q-13.56,5.78-33.76,5.78Q1027,282.68,1014.72,270Z"
+                transform="translate(-87.97 -85.23)" />
+              <path class="cls-1"
+                d="M1110.84,271.57q-13.69-11.15-13.69-31.91,0-21.34,14.56-33.19t42.59-11.84h38.11v-3.17c0-7.12-2.37-12.12-7.07-15s-13.35-4.35-25.84-4.35a149.28,149.28,0,0,0-45.91,7.24v-30a134.61,134.61,0,0,1,25.12-6.64,173.36,173.36,0,0,1,30.3-2.61q32.63,0,50.25,13.3t17.6,41v85.44h-40.72l-2.3-11.56q-15.85,14.44-48.2,14.45Q1124.56,282.68,1110.84,271.57Zm81.57-30.75V221.48H1159.5q-10.39,0-15.46,4t-5,12.41q0,16.17,21.38,16.16Q1181.16,254.09,1192.41,240.82Z"
+                transform="translate(-87.97 -85.23)" />
+              <path class="cls-1"
+                d="M1266.58,272.86c-6.56-6.56-9.82-17-9.82-31.48V85.23h46.46V236.78q0,6.61,2.61,9.09c1.74,1.64,4.51,2.44,8.36,2.44a43.39,43.39,0,0,0,13.86-2v31.48a76.56,76.56,0,0,1-13.41,3.73,90.49,90.49,0,0,1-15.74,1.18Q1276.39,282.68,1266.58,272.86Z"
+                transform="translate(-87.97 -85.23)" />
+              <path id="cross" class="cls-2"
+                d="M234.32,160.64H190.46V115.39a3.28,3.28,0,0,0-3.28-3.28H138.39a3.28,3.28,0,0,0-3.28,3.28v45.25H91.25A3.29,3.29,0,0,0,88,163.92V210.1a3.12,3.12,0,0,0,3.12,3.11h44v45.25a3.28,3.28,0,0,0,3.28,3.28h48.79a3.28,3.28,0,0,0,3.28-3.28V213.21h44a3.12,3.12,0,0,0,3.12-3.11V163.92A3.29,3.29,0,0,0,234.32,160.64Z"
+                transform="translate(-87.97 -85.23)" />
+              <path class="cls-3"
+                d="M1342.78,93.62h93q32,0,48.07,16.89t16,46.89q0,18.78-9.4,32.91a56.07,56.07,0,0,1-26.12,21.07,32.29,32.29,0,0,1,6.2,6.93,79.76,79.76,0,0,1,5.64,11l21.94,50.23h-48.51l-20.77-47.34q-2.61-6.34-6.65-8.95c-2.7-1.74-6.53-2.61-11.53-2.61h-21.38v58.9h-46.47Zm80.84,91.21q13.85,0,21.35-6.93t7.5-20.5q0-28-26.83-28h-36.39v55.44Zm104.74,83.85q-13.42-13.71-13.44-40v-86h46.5v83.42c0,7.71,1.83,13.32,5.47,16.89s9.35,5.33,17,5.33a38.18,38.18,0,0,0,15.6-3.31,39,39,0,0,0,12.71-8.81V142.69h46.47V279.51h-43.3L1613.94,268q-19.34,14.41-47.61,14.43Q1541.76,282.4,1528.36,268.68Zm154-126h43.32l1.43,11.84A80.44,80.44,0,0,1,1748.9,144a84.63,84.63,0,0,1,26.41-4.18q26.28,0,38.55,12.71t12.26,39.25v87.75h-46.49v-84c0-7.68-1.67-13.18-5.05-16.44s-9.18-4.91-17.45-4.91a37.29,37.29,0,0,0-15.3,3.47,42.49,42.49,0,0,0-13,8.65v93.24h-46.49Z"
+                transform="translate(-87.97 -85.23)" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="navigation-right">
+          <nav class="navigation-navbar">
+            <ul id="navigation-menu" class="slimmenu">
+              
+              
+
+              
+
+              
+
+              <li class="active themeix-dropdown has-children">
+                <a href=""  style="pointer-events: none">Project</a>
+
+                
+                <ul class="themeix-dropdown-item" role="menu">
+                  
+                  <li class="active" >
+                    <a href="/blog/why-hospitalrun/">Why HospitalRun?</a>
+                  </li>
+                  
+                  <li >
+                    <a href="/features">Features</a>
+                  </li>
+                  
+                  <li >
+                    <a href="/demo">Try it</a>
+                  </li>
+                  
+                  <li >
+                    <a href="/faq">FAQs</a>
+                  </li>
+                  
+                  <li >
+                    <a href="/roadmap">Roadmap</a>
+                  </li>
+                  
+                  <li >
+                    <a href="http://eepurl.com/c7uKJ5">Deploy it</a>
+                  </li>
+                  
+                </ul>
+                
+              </li>
+              
+              
+
+              
+
+              
+
+              <li class="active">
+                <a href="/blog" >Blog</a>
+
+                
+              </li>
+              
+              
+
+              
+
+              
+
+              <li class=" themeix-dropdown has-children">
+                <a href=""  style="pointer-events: none">Community</a>
+
+                
+                <ul class="themeix-dropdown-item" role="menu">
+                  
+                  <li >
+                    <a href="/stories">Hospital Stories</a>
+                  </li>
+                  
+                  <li >
+                    <a href="/contribute">Contribute</a>
+                  </li>
+                  
+                  <li >
+                    <a href="/team">Team</a>
+                  </li>
+                  
+                </ul>
+                
+              </li>
+              
+              
+
+              
+
+              
+
+              <li class="">
+                <a href="https://docs.hospitalrun.io" >Docs</a>
+
+                
+              </li>
+              
+              
+
+              
+
+              
+
+              <li class="">
+                <a href="/contacts" >Contact</a>
+
+                
+              </li>
+              
+              <li class="donate-wrapper">
+                <a href="https://opencollective.com/hospitalrun" class=" btn btn-style6 btn-donate" target="_blank" rel="noopener"><span>Katalog <i class="fa fa-heart"></i></span></a>
+              </li>
+              
+            </ul>
+          </nav>
+
+        </div>
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableTitle">Search</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="modal-search-form" action="#">
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="search-input" placeholder="Type here " required="">
+                    <span class="input-group-btn">
+                      <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                  </div>
+                </form>
+              </div>
+              <ul id="results-container"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End Header Area -->
+<!-- Start Page Title Area -->
+<section class="page-title-area .bg-coverblog" style="background:url(/assets/img/kenya_medical_records_2.jpg);">
+  <div class=" page-title-wrapper section-spacing">
+    <div class="page-title text-center white-text">
+      <h2 class="heading-2">Why HospitalRun?</h2>
+      <ul class="page-title-meta list-inline">
+        
+        <li class="list-inline-item"><img src="/assets/images/slider-author.png"
+            alt="Joel Worrall"><a href="https://github.com/tangollama">Joel Worrall</a></li>
+        
+        
+        <li class="list-inline-item"><img src="/assets/images/slider-date.png"
+            alt="2016-06-07 06:00:00 +0800">07 June 2016</li>
+        
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End Page Title Area -->
+<!-- Start Blog  Area -->
+<section class="blog-area bg-color1">
+  <div class="blog-wrapper section-spacing bminus-30">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="single-post">
+  <div class="single-content">
+    <p>Since this open source project really started to gather momentum in December 2015 after a posting on <a href="https://news.ycombinator.com/item?id=10675275">Hacker News</a>, I’ve been asked several times to talk about the genesis of HospitalRun and why a few people working for an under-resourced health care charity would be foolish enough to start yet another open source EMR/HIS project.</p>
+
+<p>This article tries to answer that question: Why HospitalRun?</p>
+
+<p><i>Note: <a href="http://goo.gl/NCJDnJ">Click here</a> for the Google Doc justification paper titled, “Why HospitalRun?”</i></p>
+
+<h1 id="2012-in-kenya">2012: In Kenya</h1>
+
+<p>The journey that led to HospitalRun started in 2012 at a <a href="http://cure.org">CURE International</a> hospital in <a href="http://cure.org/kenya">Kijabe, Kenya</a>.</p>
+
+<p>Like all CURE hospitals, <a href="http://cure.org/kenya">CURE Kenya</a> primarily treats children with surgically correctible conditions. Things like clubfoot, bowed legs, cleft lip and palate, and other conditions that are commonly addressed by public health initiatives in areas of the world with more resources - all these are the primary mission of CURE. Issues of <a href="http://www.essentialsurgery.com/">essential surgery</a> and the kids CURE treats tend to be on the bottom of priority lists in the resource-scarce environments of low-to-medium income countries (commonly referred to as “the developing world”).</p>
+
+<p>Back in April 2012, I was in Kenya to check out the effectiveness of a <a href="http://cure.org/curekids">real-time patient reporting platform</a> CURE had just released, to see how our embedded bloggers were performing their day-to-day job.</p>
+
+<p>That’s when I saw this.</p>
+
+<p>
+  <img src="/assets/img/kenya_medical_records.jpg" width="90%" /><br />
+  <em>The medical record system at the CURE hospital in Kenya, 2012</em>
+</p>
+
+<p>Not surprisingly, this was the medical records system for a hospital that had been providing life-changing treatment to children throughout Kenya since 1998. In and of itself, paper-based records in low resource environments are <i>not</i> that surprising, and there are plenty of commercial and open source projects that have tried (one might argue unsuccessfully) to <i>truly</i> solve the issue of moving health management away from paper record-keeping to electronic systems.</p>
+
+<p>However, it was when I saw this that I knew we had an even bigger problem to solve.</p>
+
+<p>
+  <img src="/assets/img/kenya_medical_records_2.jpg" width="90%" /><br />
+  <em>Doctors and clinicians at CURE's hospital in Kenya, loading medical record bins onto an ambulance that is headed out on a mobile clinic</em>
+</p>
+
+<p>You see, that day, I was heading <i>off campus</i> with a team from the CURE hospital to conduct what we refer to as a “mobile clinic.”</p>
+
+<p>Because CURE provides such specialized care, we attract and treat patients from throughout the country, 3-4 times per year and in regions throughout Kenya, a team from the hospital will visit an area 6-8 hours away from the hospital to see hundreds of children and their parents in one day. Some of these children are patients receiving long-term follow-up care. The majority are parents desperate to find a cure for their little boy or girl, bringing them to a CURE clinic to learn whether or not we can help.</p>
+
+<p>I watched as our dedicated staff organized a clinic of 400 children and their parents, digging through boxes of medical records, often loosing valuable time and energy, trying to assign new patients to new charts, asking patients to shuffle their medical records through the queues, and sometimes loosing track of who had what data. The team did (as always) an admirable job, and at the end of the clinic, dozens of children had been scheduled for life-changing surgeries… but it was clear there was a problem.</p>
+
+<p>Experiencing that mobile clinic helped me <i>feel</i> that problem. This wasn’t just an EMR (electronic medical record) problem. This was an offline problem.</p>
+
+<h2 id="an-offline-problem">An Offline Problem</h2>
+
+<p>As a software professional, I knew that the right, long-term decision for any software solution was to go to the cloud, but this environment presented two big challenges - challenges that (heretofore) have dissuaded technology professionals from moving to a cloud solution for low resource parts of the world:</p>
+
+<ol>
+  <li>Unreliable infrastructure: The reality is that Internet reliability globally continues to improve, but it is far from ubiquitous and anything but reliable.</li>
+  <li>Disconnected environments: health providers like CURE have patients that may live far enough away from the facility to require travel. Therefore, having the option to carry medical records outside of the facility was a real need.</li>
+</ol>
+
+<p>When I got to my office in Pennsylvania, I shared what I saw, and (subsequently) my colleague <a href="http://twitter.com/jkleinsc">John</a> started working with a design paradigm called <a href="http://alistapart.com/article/offline-first">Offline First</a>.</p>
+
+<h1 id="2012-an-offline-first-database">2012: An Offline First Database</h1>
+
+<p>The core concept of Offline First is simple: stop treating the lack of connectivity in a web-based app as an error condition. Instead, make the application resilient to interruptions in connectivity. Native frameworks and modern browsers as well as many modern web frameworks provide tools to make this not only possible but increasingly transparent to not only the end user but also the application developer.</p>
+
+<p>So, we started working with the technology. That <i>did not</i> mean we wanted to start an open source project. Far from it.</p>
+
+<p>Back in 2012, we never had the interest or inclination to try to tackle an entire hospital information system, led alone start an open source project. Instead, we decided to explore offline first principles in service to a challenging-but-smaller problem, a research database need we had for a program inside CURE called <a href="http://cure.org/hydrocephalus">CURE Hydrocephalus</a>.</p>
+
+<p>
+  <img src="/assets/img/hydrodb.png" width="90%" /><br />
+  <em>Reviewing patient records in the CURE offline first hydrocephalus database - an offline first web application built for Chrome</em>
+</p>
+
+<p>By Fall 2012, that research database was deployed in 14 countries, primarily in subSaharan Africa. We learned a lot from that project, but now we needed to address the larger issue of a complete HIS (hospital information system) solution.</p>
+
+<h1 id="2013-evaluating-options">2013: Evaluating Options</h1>
+
+<p>Like all good programmers, we’re lazy - disinterested in <i>re</i>-solving problems. We already had too much work to do supporting CURE, and if there were appropriate, affordable solutions out there for our HIS requirements, we would have <i>loved, loved, loved</i> to have found one.</p>
+
+<p>We just happen to work at the intersection of two sectors that needs a lot of innovation: <b>non-profit and health care</b>.</p>
+
+<p>So, we spent 2013 evaluating technologies and trying to find a solution that could meet the needs of the CURE International network.</p>
+
+<p>We knew that:</p>
+
+<ul>
+  <li>We were committed to the cloud: not just because of total cost-of-delivery or the need to deliver changes uniformly and rapidly but also because we needed to be able to provide complete remote administration and monitoring.</li>
+  <li>We were committed to web technology: installing and managing software in the field wasn’t an option.</li>
+  <li>We wanted a solution focused on clinical and administrative usability: This was more than just “liking the way it looks.” When it comes to user experience, we needed a solution that addressed the very real training and <a href="https://medium.com/tragic-design/how-bad-ux-killed-jenny-ef915419879e#.66xdc7kfn">even patient safety issues</a> that a lack of attention to UI and UX can cause.</li>
+  <li>We needed a system that could deal with our low-resource requirements: rather than trying to jam our needs into a Western health care model, we needed the flexibility to keep things as simple and intuitive as possible.</li>
+  <li>We needed a solution that allowed us to carry records outside the hospital walls: our delivery model demanded it. Thus the offline first considerations were a given.</li>
+  <li>We needed to be able to support it: we actually pursued at least two potential offers of “free” licensing on commercial products. Each time, it came down to the same problems. We weren’t convinced that we could successfully implement, and we couldn’t afford it - even for “free.” The hardware costs were significant and even if those systems were donated, we couldn’t attract or retain the talent needed to keep those systems running well locally at the hospitals (to say nothing of the not-very-cloud-friendly nature of many of those offerings).</li>
+</ul>
+
+<p>And, we knew that the tide was turning with regards to digital health.</p>
+
+<p>
+  <img src="/assets/img/2015-Year-in-Review_Website_Updated.0011-1200x625.jpeg" width="90%" alt="2015 analysis of investment in digital health solutions by Rock Health" /><br />
+  <em><a href="https://rockhealth.com/reports/digital-health-funding-2015-year-in-review/" target="_blank">Rock Health's 2015 analysis</a> demonstrates a significant trend in the rise of digital health solutions (and therefore investment)</em>
+</p>
+
+<p>So, in early 2014, we re-examined the work we had done with our offline first hydrocephalus research database and determined to take what we learned there and apply it to a brand new effort.</p>
+
+<h1 id="2014-starting-hospitalrun">2014: Starting HospitalRun</h1>
+
+<p>But if we were going to start over, we were convinced we needed to go open source. The only sustainable project would be one that was useful for thousands of potential facilities - not just the CURE International network.</p>
+
+<p>So, we set out to seriously examine the existing open source health projects. Many of them had done some good work, but for a variety of reasons - either because of a lack of ability to influence the community, the very clear lack of focus on UX, or the practical need we would have to completely rearchitect their undelying technology - we were faced with the option we didn’t want: starting a new project.</p>
+
+<p>
+  <img src="/assets/img/screenshot-mock-sm.jpg" alt="HospitalRun" width="90%" /><br />
+  <em>The HospitalRun project was unsuspiciously launched in 2014 at a piece of <a href="https://www.google.com/maps/place/701+Bosler+Ave,+Lemoyne,+PA+17043/data=!4m2!3m1!1s0x89c8c199d4c8f2b1:0x78b1c766ad2e2f6e?sa=X&amp;ved=0ahUKEwiK28WYtqHNAhWDGD4KHZZaDxkQ8gEIGzAA" target="_blank">D-level commercial real estate in Lemoyne, Pennsylvania</a>.</em>
+</p>
+
+<h2 id="quantifying-the-unaddressed-need">Quantifying the unaddressed need</h2>
+
+<p>We had a sense that if CURE International - a network of hospitals that was receiving some source of funding from the US, Canada, and the UK - was struggling with this issue, that there could be thousands of other facilities in low-to-medium income countries with the same problems. However, validating that sense with facts was harder than you might think. There seemed to be no clear research answering the question: how many hospitals <i>are</i> in low-to-medium income countries?</p>
+
+<p>So, we did some research ourselves.</p>
+
+<p>We put together a mashup of <a href="http://goo.gl/fKbG9k">UN</a> and <a href="http://goo.gl/WlZrgl">WHO</a> data in order to try to estimate how many hospitals are in low-to-medium income countries. The result of that work is published <a href="http://goo.gl/38MVD0">here</a>, and we referenced our estimate, nearly 14,000 hospitals in low-to-medium income countries, in our first justification paper, titled <a href="http://goo.gl/NCJDnJ">“Why HospitalRun?”</a> <i>Side note: A year later, I was speaking with another CTO and contributor to HospitalRun about that research and was told that our numbers were way off - that we completely underestimated.</i></p>
+
+<p>The bottom line is that there’s a huge, unaddressed need.</p>
+
+<p>So in early 2014, we launched the HospitalRun open source project, choosing <a href="http://emberjs.com">Ember</a> and <a href="https://pouchdb.com/">PouchDB</a> for the front end project and <a href="https://nodejs.org/">Node</a> and <a href="http://couchdb.apache.org/">CouchDB</a> for the back end.</p>
+
+<p>In September of that year, we did the first early (probably too early) deployment of the system at the CURE hospital in the <a href="http://cure.org/philippines">Philippines</a>, and we’re scheduled to release a 1.0 by or before April 1, 2017.</p>
+
+<h1 id="goals-for-hospitalrun">Goals for HospitalRun</h1>
+
+<p>But we were not interested in running the favour-of-the-year open source health project, merely choosing today’s “cool tools” and fading out in 3-4 years. Instead, we’ve worked to establish very specific goals for why we’re doing what we’re doing. Those are:</p>
+
+<h2 id="1-building-specifically-for-low-to-medium-income-countries">1) Building specifically for low-to-medium income countries</h2>
+
+<p>This is about more than supporting internationalization (which HospitalRun does). Building software for the developing world is about embracing the realities of lower-resource settings as a driver - rather than a constraint - for innovation. When you can’t health-care-consultant your way out of a problem, it reframes the opportunity to produce a truly useful solution that is focused on meeting the needs (technical, business, and otherwise) of those environments.</p>
+
+<p>
+  <img src="/assets/img/CURE_Map_June15-1.png" width="90%" alt="Environments like the places CURE and thousands of other health care providers serve can't afford Western solutions on multiple levels" /><br />
+  <em>Low-to-medium income countries need a solution focused on their needs rather than porting the constraints of Western medicine to the majority world</em>
+</p>
+
+<h2 id="2-making-usability-the-1-requirement">2) Making Usability the #1 requirement</h2>
+
+<p>The lack of attention to user experience or even the user interface in electronic health solutions has generated a track record of confusion and cost, as high-paid consultants are needed to enforce less-than-optimal solutions onto teams. The settings for which we’re building have no such conquistador-like luxury, where teams of health care IT professionals can enforce change. In many of these settings, there may even be little financial incentive to enforce record-keeping policy.</p>
+
+<p>Yet rather than lament those constraints, we’re choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and administrative. So we set out to build a solution that people might even (…dream with me) enjoy using, and we brought UX expertise into the core maintainer team of the project to help hold us accountable to producing the kind of solution that strives to delight users.</p>
+
+<p>
+  <img src="/assets/img/burning-ships.jpg" width="50%" alt="Cortes burns the ships on the coast of Mexico" /><br />
+  <em>Hiring a team of highly-paid/highly-qualified consultants because you've "burned the ships" on your decision to implement an EMR/HIS isn't a realistic option in low-to-medium income health care  environments  </em>
+</p>
+
+<p>But we didn’t want to limit our usability goals to just clinical or even administrative users. What if we could build a system that was easy to setup, administer, and upgrade? And what if we could build an open source project that was… wait for it… easy to contribute to? (No more spending a day polishing your secret decoder ring to make a contribution.) Could we build a system that allows someone to make a meaningful contribution in one 8-hour day?</p>
+
+<p>That’s what we set out to do with usability: make HospitalRun the most ambitious AND delightful open source health project in the world - for users, administrators, and contributors. We still think we have a long way to go, but that’s the goal - making usability #1.</p>
+
+<h2 id="3-solving-for-time">3) Solving for Time</h2>
+
+<p>A recent survey of Western health care practitioners found that <a href="http://goo.gl/293J6t">20% of their time</a> was being spent on administrative tasks that (arguably) had little to do with improving the quantity or quality of care being provided. Much of that time was caused by - rather than improved by - the software they were using.</p>
+
+<p>
+  <img src="/assets/img/11clock.png" style="max-width:200px" alt="11 o'clock, tick tock" /><br />
+  <em>"How are we saving time for users of HospitalRun?" is one of the primary considerations in any feature.</em>
+</p>
+
+<p>With HospitalRun, we saw the opportunity to give health care professionals in exceptionally constrained environments back the only resource we can’t make more of: their time.</p>
+
+<p>Going forward, we’re purposing to metric the system to not only inform requirements but also to baseline the time it takes to accomplish common tasks so that future feature development can seek to improve on those measurements. The result of every feature should be time given back to more doctors, nurses, and administrators so that their attention can go where it should - on the patients and families they serve.</p>
+
+<h2 id="4-embracing-offline-first">4) Embracing Offline First</h2>
+
+<p>Not only because offline first met our “carry records into the field” requirement but also because we believe that it’s just the right thing to do with modern business applications, we wanted to make offline first a core principle of the project from the beginning.</p>
+
+<p>
+ <img src="/assets/img/ALA386_designoffline.jpg" alt="offline first" style="max-height:300px" /><br />
+ <em>HospitalRun embraces the principles of offline first</em>
+</p>
+
+<h2 id="5-more-than-a-download">5) More than a Download</h2>
+
+<p>Deploying software isn’t like installing a refrigerator that you spec out, buy, plug in, walk away from, and expect to work perfectly until the compressor dies. This is clear to the business world, as the rise of software as a service models are driving home not only the effectiveness but the lower total cost of ownership in signing on to a service that has ongoing, continuous improvement and maintenance.</p>
+
+<p>Yet far too often (and even particularly today with open source projects), we treat software solutions like a utility that is installed once and expected to meet all our needs until the day it is replaced (much like a kitchen appliance). The reality couldn’t be further from the truth. Innovation and support need the opportunity for continuous upgrades, and HospitalRun is committed to a future where the HospitalRun code is only a part of the overall open source project.</p>
+
+<p>We’re building an open source service.</p>
+
+<p>
+ <img src="/assets/img/software-refrigerator.jpg" alt="software isn't a refridgerator" style="max-height:300px" /><br />
+ <em>Software isn't a refrigerator, so HospitalRun is building a service</em>
+</p>
+
+<h2 id="6-partnering-to-make-a-difference">6) Partnering to Make a Difference</h2>
+
+<p>It seems to us that HospitalRun:</p>
+
+<ul>
+  <li>as an open source project,</li>
+  <li>backed / incubated by an international NGO,</li>
+  <li>focused on issues of global health and data, and</li>
+  <li>committed to modern, cloud technologies</li>
+</ul>
+
+<p>holds a tremendous opportunity to partner the NGO, government, and tech sectors in a problem that has mutual interest and benefit.</p>
+
+<p>It’s almost as if, by <b>working together</b>… we just might have a fighting chance of changing the world.</p>
+
+<p>Moreover, through initiatives like our <a href="/lisbon">Hack Day</a> events, we’re seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility, opportunity, and innovative technology.</p>
+
+<h1 id="now-what">Now what?</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dA2Sxci_hTk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><i>Thanks to our friends at <a href="http://newrelic.com">New Relic</a> for contributing this video</i></p>
+
+<p>One of the things we’re putting a lot of energy into for HospitalRun is the usability experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops.</p>
+
+<p>If you think you’d be interested in getting involved in the project, we’d love to have you start by <a href="https://hospitalrun-slack.herokuapp.com/">joining our Slack</a>. At minimum, share this post with someone or someones to help us meet more people who might be interested in <a href="/contribute">contributing</a>.</p>
+
+<h1 id="and-finally-a-huge-thank-you">And Finally, a HUGE Thank you</h1>
+
+<p>To date, dozens of people have contributed to what’s been accomplished already with HospitalRun, and hundreds more are actively tracking with the project. On behalf of the entire HospitalRun core team as well as the kids and families we’re serving together - to everyone who’s taken part in the project in these early days, for those who will contribute in the weeks, months, and years to come, and most-importantly for the people who make HospitalRun a regular and recurring part of their contribution to the world, thank you!</p>
+
+<p>There are literally thousands of children, mothers, fathers, grandparents, and the like who’s lives can, have, and will be impacted… perhaps even saved… by all of us working diligently and collaboratively on this project.</p>
+
+  </div>
+  <div class="single-tags-share">
+    
+    <ul class="single-tags list-inline float-left">
+      <strong>Tag:</strong> 
+      <li class="list-inline-item"> <a class="text-capitalize"
+          href="/tag/v1.0.0">v1.0.0</a></li>
+      
+    </ul>
+    <br>
+    
+    <div class="social-share-btns">
+      <ul class="single-share list-inline float-right">
+  <li class="list-inline-item">Share:</li>
+  <li class="list-inline-item">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/why-hospitalrun/"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Facebook">
+      <i class="fa fa-facebook-f"></i>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="https://twitter.com/intent/tweet?text=Why HospitalRun?&url=http://localhost:4000/blog/why-hospitalrun/"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Twitter">
+      <i class="fa fa-twitter"></i>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/why-hospitalrun/"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on LinkedIn">
+      <i class="fa fa-linkedin"></i>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="http://www.tumblr.com/share/link?url=http://localhost:4000/blog/why-hospitalrun/"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Tumblr">
+      <i class="fa fa-tumblr share-button"></i>
+    </a>
+  </li>
+</ul>
+    </div>
+  </div>
+  <nav class="page-pagination mb-5">
+    <ul class="pagination d-flex justify-content-between themeix-highlight">
+      
+      <li class="page-item themeix-highlight">
+        <a class="page-link next-btn" href="/blog/hospitalrun-early-release-in-september-2014/"><i class="fa fa-angle-double-left"></i> Previous
+          Post</a>
+      </li>
+      
+      
+      <li class="page-item themeix-highlight">
+        <a class="page-link prev-btn" href="/blog/coming-soon-hospitalrun-10/">Next Post<i class="fa fa-angle-double-right"></i></a>
+      </li>
+      
+    </ul>
+  </nav>
+</div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Blog Area -->
+<!-- Start Footer Area -->
+<footer class="footer-area bg-color3">
+  <div class="footer-wrapper section-spacing bminus-30">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="footer-widget wow fadeIn" data-wow-duration="1s">
+            <h5 class="footer-title heading-5">About HospitalRun</h5>
+            <p>
+              An offline-first electronic health record (EHR) and hospital information system (HIS) web application.
+              HospitalRun is built to provide the most modern information system possible to the least resourced
+              environments.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="footer-widget wow fadeIn" data-wow-duration="2s">
+            <h5 class="footer-title heading-5">More resources</h5>
+            <ul class="footer-category list-inline">
+              <li><a href="/team">Team</a></li>
+              <li><a href="/roadmap">Roadmap</a></li>
+              <li><a href="/blog/why-hospitalrun/">Why HospitalRun?</a></li>
+              <li><a href="/demo">Demo </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="footer-widget wow fadeIn" data-wow-duration="4s">
+            <h5 class="footer-title heading-5">Follow Us</h5>
+            <ul class="footer-socials list-inline">
+               
+              <li class="list-inline-item">
+                <a href="https://github.com/HospitalRun/"><i class="fa fa-github"></i></a>
+              </li>
+               
+              <li class="list-inline-item">
+                <a href="https://twitter.com/hospitalrun"><i class="fa fa-twitter"></i></a>
+              </li>
+                
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/company/27045539"><i class="fa fa-linkedin"></i></a>
+              </li>
+                
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCkHnYX7XQlam77j4Wx6NJCA"><i class="fa fa-youtube"></i></a>
+              </li>
+               
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-wrapper">
+    <div class="container">
+      <div class="footer-copyright text-center">
+        <p style="font-size: 0.8rem; line-height: 2;">Copyright <a href="https://openjsf.org">OpenJS Foundation</a> and <a
+            href="https://hospitalrun.io">HospitalRun</a> contributors. All rights reserved. The <a
+            href="https://openjsf.org">OpenJS Foundation</a> has registered trademarks and uses trademarks. For a list
+          of trademarks of the <a href="https://openjsf.org">OpenJS Foundation</a>, please see our <a
+            href="https://trademark-policy.openjsf.org">Trademark Policy</a> and <a
+            href="https://trademark-list.openjsf.org">Trademark List</a>. Trademarks and logos not indicated on the <a
+            href="https://trademark-list.openjsf.org">list of OpenJS Foundation trademarks</a> are trademarks&trade; or
+          registered&reg; trademarks of their respective holders. Use of them does not imply any affiliation with or
+          endorsement by them.<br />
+          <a href="https://openjsf.org">The OpenJS Foundation</a> | <a href="https://terms-of-use.openjsf.org">Terms of
+            Use</a> | <a href="https://privacy-policy.openjsf.org">Privacy Policy</a> | <a
+            href="https://bylaws.openjsf.org">OpenJS Foundation Bylaws</a> | <a
+            href="https://trademark-policy.openjsf.org">Trademark Policy</a> | <a
+            href="https://trademark-list.openjsf.org">Trademark List</a> | <a
+            href="https://www.linuxfoundation.org/cookies">Cookie Policy</a>
+          <br />
+          
+        
+        <span style="font-size: 0.5rem">
+          Thumbnail photo by <a href="https://www.pexels.com">Pexels</a>
+          </span>
+          
+      
+      </p>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="home-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</footer>
+<!-- End Footer Area -->
+  <style>
+    #cookie-notice {padding: 0.5rem 1rem; display: none; z-index: 100; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
+    #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+    @media (max-width: 767px) {
+        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
+        #cookie-notice a {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a><a href="https://www.linuxfoundation.org/cookies" class="btn btn-primary btn-sm">More info</a></div>
+<script>
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+
+    if(readCookie('cookie-notice-dismissed')=='true') {
+        (function (w, d, s, l, i) {
+  w[l] = w[l] || [];
+  w[l].push({
+    'gtm.start': new Date().getTime(),
+    event: 'gtm.js'
+  });
+  var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s),
+    dl = l != 'dataLayer' ? '&l=' + l : '';
+  j.async = true;
+  j.src =
+    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+  f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-NMXJHPF');
+    } else {
+        document.getElementById('cookie-notice').style.display = 'block';
+    }
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice-dismissed','true',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
+</script>
+  <!-- Add Javascript File -->
+  <script src="/assets/js/build.min.js"></script>
+  <script>
+    $(function () {
+      $('a[href*=\\#]').not(".no-smooth").on('click', function (event) {
+        var el = $(this.hash);
+        if (el.length > 0) {
+          // event.preventDefault();
+          $('html,body').animate({
+            scrollTop: $(this.hash).offset().top - 100
+          }, 500);
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

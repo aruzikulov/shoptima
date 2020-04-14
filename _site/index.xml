@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/index.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-14T21:05:09+08:00</updated><id>http://localhost:4000/index.xml</id><title type="html">HospitalRun - Open source software for developing world hospitals</title><subtitle>Free, easy-to-use software for developing world healthcare.</subtitle><entry><title type="html">A New Beginning</title><link href="http://localhost:4000/blog/a-new-beginning/" rel="alternate" type="text/html" title="A New Beginning" /><published>2019-08-07T17:45:00+08:00</published><updated>2019-08-07T17:45:00+08:00</updated><id>http://localhost:4000/blog/a-new-beginning</id><content type="html" xml:base="http://localhost:4000/blog/a-new-beginning/">&lt;p&gt;Hi! First of all, let me introduce myself: I am Maksim Sinik and I am very excited and honoured to announce that I am the new Lead Maintainer of the HospitalRun project. My interest in HR started some time ago when I read &lt;a href=&quot;https://hospitalrun.io/blog/2018/07/help-wanted-a-message-from-the-co-founders&quot;&gt;this&lt;/a&gt; post: I immediately thought that such a amazing project should not be abandoned and that all the efforts of hundreds of contributors should not be in vain!&lt;/p&gt;
+
+&lt;p&gt;I contacted Joel and after an intense chat we agreed that I would take over the management of HospitalRun. We discussed about the major issues and what the direction of the project should be. We both agreed that the codebase is old and difficult to contribute to for the today’s standards. Unfortunately we had to make a hard decision, but I’m sure that it will pay in terms of contributions and future features: a complete rewrite of HR to adapt it to the modern cloud world.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-future&quot;&gt;The Future&lt;/h2&gt;
+
+&lt;p&gt;Now let’s talk about the near future. All the repos will remain the same, but next branches will be added (&lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/tree/next&quot;&gt;frontend&lt;/a&gt; and &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-server/tree/next&quot;&gt;server&lt;/a&gt;). Preserving all the incredible work done by the community in many years is one of the main priorities: the current codebase will be conserved in a dedicated branch. Forever. I already read all the opened issues and reviews all the PRs that are still open. I decided to keep some of them, as a reference and reminder for the future implementation. Unfortunately, others won’t be fixed. We need to focus on the new and improved version and the &lt;code class=&quot;highlighter-rouge&quot;&gt;1.0.0-beta&lt;/code&gt; release was never meant to be deployed in production anyway.&lt;/p&gt;
+
+&lt;p&gt;Speaking of the new architecture and codebase we already made some choices. Some are written below and others will be revealed in the upcoming roadmap.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The FE will be built upon &lt;a href=&quot;https://reactjs.org/&quot;&gt;React&lt;/a&gt;. All of the great features of HR are still important today: offline-first, light weight, fast and an intuitive UX.&lt;/li&gt;
+  &lt;li&gt;The BE will use &lt;a href=&quot;https://www.fastify.io/&quot;&gt;Fastify&lt;/a&gt; a modern, fast, secure and with a powerful plugin architecture web framework. If you still don’t know it, I highly encourage you to check it out.&lt;/li&gt;
+  &lt;li&gt;The infrastructure will be based on &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; and &lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;. One of the biggest issues that the old HospitalRun has, was the difficult deploy in production. The desktop app were confusing and impossible to “link” to the cloud (or on-premise) deploy. We are here to fix it! Ideally we will provide one-click installer for the major cloud providers and docker images/Kuberenets-templates for the others.
+The roadmap it will be published soon. In the meantime I can say that, in the near future, the main focus will be to port all of the current HospitalRun features to the new codebase.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Speaking of roadmap, it will be public from the first day and we highly encourage everyone to contribute to it.&lt;/p&gt;
+
+&lt;h2 id=&quot;call-to-action&quot;&gt;Call to Action&lt;/h2&gt;
+
+&lt;p&gt;I want to use this post also to do a “call to action”: if you think that you can contribute to the community, don’t be shy and reach me on &lt;a href=&quot;https://hospitalrun.slack.com&quot;&gt;Slack&lt;/a&gt; or just open an issue on the official repo to show your willingness to help. &lt;br /&gt;
+Finally, I would like to thank Joel, John and Joel immensely for creating and maintaining such an incredible open-source project and all the community for all years of support and contributions. &lt;br /&gt;
+This is &lt;strong&gt;a new beginning&lt;/strong&gt; and I’m sure that it we will be an amazing journey for all of us.&lt;/p&gt;
+
+&lt;p&gt;Maksim Sinik&lt;/p&gt;</content><author><name>Maksim Sinik</name></author><category term="update" /><category term="v2.0.0" /><summary type="html">I am Maksim Sinik and I am very excited and honoured to announce that I am the new Lead Maintainer of the HospitalRun project.</summary></entry><entry><title type="html">Help Wanted</title><link href="http://localhost:4000/blog/help-wanted-a-message-from-the-co-founders/" rel="alternate" type="text/html" title="Help Wanted" /><published>2018-07-01T20:00:00+08:00</published><updated>2018-07-01T20:00:00+08:00</updated><id>http://localhost:4000/blog/help-wanted-a-message-from-the-co-founders</id><content type="html" xml:base="http://localhost:4000/blog/help-wanted-a-message-from-the-co-founders/">&lt;p&gt;In 2014 when &lt;a href=&quot;https://twitter.com/jkleinsc&quot; target=&quot;\_blank&quot;&gt;John&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/jglovier&quot; target=&quot;\_blank&quot;&gt;Joel&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/tangollama&quot; target=&quot;\_blank&quot;&gt;I&lt;/a&gt; (yes there are two Joel’s) started this project, I could have never imagined how far the project would progress to today. We are and always have been aspirational co-founders / maintainers of &lt;a href=&quot;http://github.com/hospitalrun&quot; target=&quot;\_blank&quot;&gt;HospitalRun&lt;/a&gt;, starting the project in the hopes that our work would motivate other, more qualified, better-resourced teams to take up the cause.&lt;/p&gt;
+
+&lt;p&gt;In that respect, progress - not the project - has always been the aim. I’ve often said, “If HospitalRun solves a problem, great. If it’s just prior work to a better, more sustainable solution, that’s just as great.” We saw a human problem that could be significantly aided by better software, and we leveraged the vantage point we had (at the time all as current or recent employees of &lt;a href=&quot;http://cure.org&quot; target=&quot;\_blank&quot;&gt;CURE International&lt;/a&gt;) to pursue a solution.&lt;/p&gt;
+
+&lt;p&gt;I’d say &lt;em&gt;the community&lt;/em&gt; got pretty far.&lt;/p&gt;
+
+&lt;h4 id=&quot;since-then&quot;&gt;Since then…&lt;/h4&gt;
+
+&lt;p&gt;Four and a half years is a long time for anything in the tech world, and (not surprisingly) a lot has changed for each of the co-founders.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;John Kleinschmidt is now working full-time as an open source maintainer as a part of the &lt;a href=&quot;https://electronjs.org/&quot; target=&quot;\_blank&quot;&gt;Electron&lt;/a&gt; team at GitHub&lt;/li&gt;
+  &lt;li&gt;Joel Glovier, after a 5 year stint at GitHub, is now the head of design at &lt;a href=&quot;https://netlify.com&quot; target=&quot;\_blank&quot;&gt;Netlify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I’m now working for &lt;a href=&quot;https://newrelic.com&quot; target=&quot;\_blank&quot;&gt;New Relic&lt;/a&gt; as well as teaching part-time as a Computer Science instructor at my alma-mater, &lt;a href=&quot;https://messiah.edu&quot; target=&quot;\_blank&quot;&gt;Messiah College&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;None of us are working directly in the healthcare or nonprofit sectors any longer, each of us have had numerous family, career, and life events since founding HospitalRun, and each of us have struggled to bring the kind of time and attention that the project deserves.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;That last point has been especially true for me over the last year.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Which is to say, everything changes, and today is an announcement of a change for HospitalRun.&lt;/p&gt;
+
+&lt;h4 id=&quot;maintaining&quot;&gt;Maintaining&lt;/h4&gt;
+
+&lt;p&gt;John and I have decided that we can no longer give (and to be honest haven’t been giving) HospitalRun the time and attention it needs; and as a result, we’re looking to hand off the primary technical leadership of HospitalRun to someone(s) else who can take the project wherever it still needs to go. I’m happy to stay involved as a promoter and supporter, but our hope is that a group of worthy “someones” will raise their hands, asking for control of the repos.&lt;/p&gt;
+
+&lt;p&gt;Joel Glovier will continue to remain involved as a core maintainer and design lead. While Joel’s availability is limited, he will continue to participate in leading the project forward as much as availability permits. You can find him in the &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md#slack--communication&quot;&gt;Slack channel&lt;/a&gt; or mention him in issues and pull requests where applicable.&lt;/p&gt;
+
+&lt;p&gt;John and I have agreed that neither of us can be a part of the project in that way going forward.&lt;/p&gt;
+
+&lt;h4 id=&quot;i-want-to-help&quot;&gt;“I want to help!”&lt;/h4&gt;
+
+&lt;p&gt;HospitalRun has been a wonderful experience for each of us - one that I can highly recommend. If you’re thinking about throwing in with the project, the weekly stream of interest in my inbox can attest to the continued need for the project. It’s been a genuine privilege to be a part of it, and I think it still can be for you.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in taking over HospitalRun as a technical maintainer, &lt;a href=&quot;mailto:joel@hospitalrun.io&quot;&gt;email me&lt;/a&gt; and let’s talk about transitioning the project well.&lt;/p&gt;</content><author><name>Joel Worrall</name></author><category term="v1.0.0" /><category term="contributor" /><summary type="html">In 2014 when John, Joel, and I started this project, I could have never imagined how far the project would progress to today.</summary></entry><entry><title type="html">A Roadmap to HospitalRun 1.0</title><link href="http://localhost:4000/blog/roadmap-to-hospitalrun-1.0/" rel="alternate" type="text/html" title="A Roadmap to HospitalRun 1.0" /><published>2018-02-26T20:00:00+08:00</published><updated>2018-02-26T20:00:00+08:00</updated><id>http://localhost:4000/blog/roadmap-to-hospitalrun-1.0</id><content type="html" xml:base="http://localhost:4000/blog/roadmap-to-hospitalrun-1.0/">&lt;p&gt;Back in May of 2017, we announced that &lt;a href=&quot;/blog/2017/05/announcing-hospitalrun-1.0.0-beta&quot; target=&quot;hr2&quot;&gt;HospitalRun 1.0 was available in beta&lt;/a&gt;. Since then, we’ve had thousands of downloads of the &lt;a href=&quot;/tryit&quot; target=&quot;hr2&quot;&gt;Electron app&lt;/a&gt; and thousands more deploy the Docker image. There’s been good and bad feedback, and throughout all of that, the entire original core team has undergone huge transitions in our day jobs (as in 2 of the 3 of us changed jobs), which has hampered the pace the project.&lt;/p&gt;
+
+&lt;h1 id=&quot;determining-the-10-feature-set&quot;&gt;Determining the 1.0 Feature Set&lt;/h1&gt;
+
+&lt;p&gt;One of the key questions that we’ve had to get our hands around is the how much was enough to release 1.0. There’s no end to the feature list that people would like to see in HospitalRun. So we’ve settled on the &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/projects/5&quot; target=&quot;hr2&quot;&gt;following project&lt;/a&gt; which focuses on ensuring the base platform is ready for an on going cycle continuous development, release, and improvement.&lt;/p&gt;
+
+&lt;p&gt;Those features include:&lt;/p&gt;
+
+&lt;dl&gt;
+	&lt;dt&gt;Tracking and usage&lt;/dt&gt;
+	&lt;dd&gt;For the project to be sustainable, we need to find an appropriate, permissioned way to answer the question where and how is it being used? We also need this information as a source of understanding where else to invest. We need to do that in a transparent and ethical way that protects PII but offers (with consent) the project the vital information it needs to make HospitalRun better.&lt;/dd&gt;
+	&lt;dt&gt;Automated deployments and builds&lt;/dt&gt;
+	&lt;dd&gt;Each time code is pushed to the master branch, we need mechanisms to automatically build and release (and update) the Electron app and Docker images&lt;/dd&gt;
+	&lt;dt&gt;Dependency upgrades&lt;/dt&gt;
+	&lt;dd&gt;Cleaning up a handful of dependency and library upgrade issues as well as some key bug fixes&lt;/dd&gt;
+	&lt;dt&gt;A Handful of Oft-Requested Issues&lt;/dt&gt;
+	&lt;dd&gt;Features around managing logins and branding on an instance&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;You can see the entire project &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/projects/5&quot; target=&quot;hr2&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col mb-5&quot;&gt;
+	  &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/projects/5&quot; class=&quot;cta primary&quot; target=&quot;hr2&quot;&gt;1.0 Roadmap&lt;/a&gt;
+  	&lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend&quot; class=&quot;cta secondary&quot;&gt;View source on GitHub&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;may-31-2018&quot;&gt;May 31, 2018&lt;/h1&gt;
+
+&lt;p&gt;Deadlines are helpful in providing focus. That’s why we’re challenging the community to get HospitalRun into a state that it can ship 1.0 by/before May 31, 2018. We won’t be able to do it without your help; but with a small amount of expertise in some key areas, this is totally achievable.&lt;/p&gt;
+
+&lt;h1 id=&quot;to-get-involved&quot;&gt;To Get Involved…&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start by reviewing the &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/projects/5&quot; target=&quot;hr2&quot;&gt;1.0 Roadmap project&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Then go to the &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend#contributing&quot; target=&quot;hr2&quot;&gt;README&lt;/a&gt; and follow the setup instructions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks in advance for everything you do to support the project.&lt;/p&gt;</content><author><name>Joel Worrall</name></author><category term="v1.0.0" /><category term="update" /><category term="roadmap" /><category term="releases" /><summary type="html">Back in May of 2017, we announced that HospitalRun 1.0 was available in beta.</summary></entry><entry><title type="html">Wanted: Discourse Manager</title><link href="http://localhost:4000/blog/wanted-discourse-manager/" rel="alternate" type="text/html" title="Wanted: Discourse Manager" /><published>2017-06-03T08:00:00+08:00</published><updated>2017-06-03T08:00:00+08:00</updated><id>http://localhost:4000/blog/wanted-discourse-manager</id><content type="html" xml:base="http://localhost:4000/blog/wanted-discourse-manager/">&lt;p&gt;Since &lt;a href=&quot;http://hospitalrun.io/blog/2017/05/announcing-hospitalrun-1.0.0-beta&quot;&gt;Announcing the Release of the HospitalRun 1.0 beta&lt;/a&gt;, we’ve had almost &lt;strong&gt;1,000 downloads&lt;/strong&gt; of the &lt;a href=&quot;http://hospitalrun.io/tryit&quot;&gt;desktop build&lt;/a&gt; and many more have deployed the &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md&quot;&gt;server installation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Good news: people are starting to use HospitalRun.&lt;/p&gt;
+
+&lt;p&gt;Better news: we need your help.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use = a need for support&lt;/li&gt;
+  &lt;li&gt;A Need for Support = an opportunity to help&lt;/li&gt;
+  &lt;li&gt;An Opportunity to help = &lt;em&gt;you&lt;/em&gt; getting involved and invested in HospitalRun&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;join-the-project-team&quot;&gt;Join the project team!&lt;/h1&gt;
+
+&lt;p&gt;We’d like to stand up a &lt;a href=&quot;http://discourse.com&quot;&gt;Discourse&lt;/a&gt; instance for user and installation support. To do that, we need someone in the community to commit to the care and feeding of said discussion board.&lt;/p&gt;
+
+&lt;p&gt;Ideally, we’re invite someone to &lt;strong&gt;lead&lt;/strong&gt; our user community management function. Maybe that’s you.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested, let’s talk. &lt;a href=&quot;mailto:joel@hospitalrun.io&quot;&gt;Email me&lt;/a&gt; or find me on the project &lt;a href=&quot;https://hospitalrun-slack.herokuapp.com/&quot;&gt;Slack&lt;/a&gt;. Find me at &lt;a href=&quot;https://hospitalrun.slack.com/messages/@tangollama/&quot;&gt;@tangollama&lt;/a&gt;.&lt;/p&gt;</content><author><name>Joel Worrall</name></author><category term="v1.0.0" /><category term="contributor" /><category term="support" /><summary type="html">Since Announcing the Release of the HospitalRun 1.0 beta, we've had almost 1,000 downloads of the desktop build and many more have deployed the server installation.</summary></entry><entry><title type="html">Announcing HospitalRun 1.0.0 Beta</title><link href="http://localhost:4000/blog/announcing-hospitalrun-1.0.0-beta/" rel="alternate" type="text/html" title="Announcing HospitalRun 1.0.0 Beta" /><published>2017-05-23T08:00:00+08:00</published><updated>2017-05-23T08:00:00+08:00</updated><id>http://localhost:4000/blog/announcing-hospitalrun-1.0.0-beta</id><content type="html" xml:base="http://localhost:4000/blog/announcing-hospitalrun-1.0.0-beta/">&lt;p&gt;So remember when we said that HospitalRun 1.0 would be out in April?&lt;/p&gt;
+
+&lt;p&gt;We obviously missed that date by several weeks.&lt;/p&gt;
+
+&lt;p&gt;For the record, there were some very good and immovable reasons why that happened (for instance, &lt;a href=&quot;http://github.com/jkleinsc&quot;&gt;JK&lt;/a&gt; and &lt;a href=&quot;http://github.com/tangollama&quot;&gt;I&lt;/a&gt; were transitioning away from CURE International in the last few months), and we learned some valuable lessons about projecting release dates in open source projects.&lt;/p&gt;
+
+&lt;p&gt;But there’s good news. I’m pleased to announce…&lt;/p&gt;
+
+&lt;h1 id=&quot;hospitalrun-100-beta-is-available&quot;&gt;HospitalRun 1.0.0 Beta is available!&lt;/h1&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;/tryit&quot;&gt;try it&lt;/a&gt; on your desktop thanks to the magic of &lt;a href=&quot;http://electron.atom.io&quot;&gt;Electron&lt;/a&gt; or deploy it with &lt;a href=&quot;http://docker.com&quot;&gt;Docker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col mb-5&quot;&gt;
+      &lt;a href=&quot;/tryit&quot; class=&quot;cta primary&quot;&gt;Try HospitalRun&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend&quot; class=&quot;cta secondary&quot;&gt;View source on GitHub&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;what-shipped&quot;&gt;What shipped?&lt;/h1&gt;
+
+&lt;p&gt;If you want a complete list of all the changes, you can of course read the &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/blob/master/CHANGELOG.md&quot;&gt;Change log&lt;/a&gt;, but I’ll try to offer a rundown of the numerous features.&lt;/p&gt;
+
+&lt;h2 id=&quot;core-modules&quot;&gt;Core Modules&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;The stuff you need to get work done.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Patients, including history, diagnosis, orders, and procedures&lt;/li&gt;
+  &lt;li&gt;Outpatient Workflow&lt;/li&gt;
+  &lt;li&gt;Operative Planning and Reporting&lt;/li&gt;
+  &lt;li&gt;Appointment scheduling&lt;/li&gt;
+  &lt;li&gt;Operative theatre / resource scheduling&lt;/li&gt;
+  &lt;li&gt;Inpatient and outpatient Visit tracking&lt;/li&gt;
+  &lt;li&gt;Consumable Inventory, including stock on hand predictive reports&lt;/li&gt;
+  &lt;li&gt;Labs Queue (not yet integrated with a LIS)&lt;/li&gt;
+  &lt;li&gt;Imaging Queue (not yet integrated with a PACS)&lt;/li&gt;
+  &lt;li&gt;Medication ordering that is tied to the consumable inventory system&lt;/li&gt;
+  &lt;li&gt;Basic billing, including handling discount profiles for charitable and discounted work&lt;/li&gt;
+  &lt;li&gt;Incident Management, tracing quality issues within a facility&lt;/li&gt;
+  &lt;li&gt;Partially-configurable Roles and permissions&lt;/li&gt;
+  &lt;li&gt;User Management&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technical-features&quot;&gt;Technical Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;The stuff that’s arguably the most special, important things about the project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Offline-first support (thanks to PouchDB and service workers)&lt;/li&gt;
+  &lt;li&gt;The capability to deploy to a local server AND the cloud with synchronization for &lt;em&gt;free&lt;/em&gt; (thanks to CouchDB)&lt;/li&gt;
+  &lt;li&gt;Desktop deployment for Mac and Windows (thanks to Electron)&lt;/li&gt;
+  &lt;li&gt;Scripted server deployment (thanks to Docker)&lt;/li&gt;
+  &lt;li&gt;Near-complete internationalization (ember-i18n)&lt;/li&gt;
+  &lt;li&gt;Repo-enforced code standards (thanks to eslint)&lt;/li&gt;
+  &lt;li&gt;Automated integration testing (thanks to Travis CI)&lt;/li&gt;
+  &lt;li&gt;Over 1,000 acceptance tests&lt;/li&gt;
+  &lt;li&gt;A donated Demo environment (thanks to Microsoft Bizspark)&lt;/li&gt;
+  &lt;li&gt;Incredible traceability on the project repository for issues, projects, and code (thanks to GitHub)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;key-time-saving-features&quot;&gt;Key Time-saving Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;The stuff we’re arguably most proud of.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Custom forms with current support for Patients, Social Work, Visits, Outpatient Reports, Labs, Incidents, Operative Plans and Reports, and Discharge Reports&lt;/li&gt;
+  &lt;li&gt;Shortcode support, allowing common text to be “short-handed” into all text fields&lt;/li&gt;
+  &lt;li&gt;Operative plans that become one-click operative reports&lt;/li&gt;
+  &lt;li&gt;“Grow with you” Lookup lists: start with empty metadata, lock down your system (per meta data field) as you are ready to formalize your taxonomies&lt;/li&gt;
+  &lt;li&gt;Google Apps authentication&lt;/li&gt;
+  &lt;li&gt;A relatively intuitive user interface&lt;/li&gt;
+  &lt;li&gt;Inventory-aware consumption of Medication and Supplies, helping resource-constrained environments plan to deliver only what they have available&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;with-gratitude&quot;&gt;With Gratitude&lt;/h1&gt;
+
+&lt;p&gt;In total this release involved nearly &lt;strong&gt;100&lt;/strong&gt; code contributors and over &lt;strong&gt;3,000&lt;/strong&gt; commits. Thank you to everyone involved in producing this first, important step for the project. We believe that HospitalRun can and will do a lot of good in the world because of you.&lt;/p&gt;
+
+&lt;p&gt;We also need to thank the following groups.&lt;/p&gt;
+
+&lt;h2 id=&quot;community-support&quot;&gt;Community support&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;The stuff that helps makes the project sustainable.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Over &lt;strong&gt;2,800&lt;/strong&gt; stars/recommendations as one of - if not &lt;strong&gt;the&lt;/strong&gt; - most popular open source health project on GitHub&lt;/li&gt;
+  &lt;li&gt;Over &lt;strong&gt;500&lt;/strong&gt; members in our project &lt;a href=&quot;http://hospitarun.slack.com&quot;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Marketing and video support from companies like &lt;a href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt;, &lt;a href=&quot;http://newrelic.com&quot;&gt;New Relic&lt;/a&gt;, and &lt;a href=&quot;http://cure.org&quot;&gt;CURE International&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Amazing support from other open source movements like &lt;a href=&quot;http://emberjs.com&quot;&gt;Ember&lt;/a&gt;, &lt;a href=&quot;http://electron.atom.io&quot;&gt;Electron&lt;/a&gt;, &lt;a href=&quot;http://pouchdb.com&quot;&gt;PouchDB&lt;/a&gt;, &lt;a href=&quot;http://couchdb.apache.org&quot;&gt;CouchDB&lt;/a&gt;, and the &lt;a href=&quot;http://offlinefirst.org&quot;&gt;Offline First&lt;/a&gt; communities… with a tip of the hat to projects like &lt;a href=&quot;https://github.com/felixrieseberg/ember-electron&quot;&gt;Ember Electron&lt;/a&gt; and &lt;a href=&quot;http://hood.ie/&quot;&gt;Hoodie&lt;/a&gt; that have been a big help. Thank you all!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
+
+&lt;p&gt;That’s really up to all of us. As people start to download and use the system, rest assured there will be an active stream of change requests, and we need your help to keep up with the demand. If you’re looking for a game-changing feature to work on, how about auto-provisioning a cloud instance from the Electron Desktop download? There’s a &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/issues/1048&quot;&gt;feature ticket for it right here&lt;/a&gt;. You could also finish &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-server/issues/14&quot;&gt;auto-generating a research instance of the data&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you’ve been think about contributing, this Summer (or Winter for my southern hemisphere friends and colleagues) would be a great time to start.&lt;/p&gt;
+
+&lt;p&gt;Congratulations to everyone,&lt;br /&gt;
+&lt;a href=&quot;http://twitter.com/tangollama&quot;&gt;Joel&lt;/a&gt; and the entire &lt;a href=&quot;http://twitter.com/hospitalrun&quot;&gt;HospitalRun&lt;/a&gt; team.&lt;/p&gt;</content><author><name>Joel Worrall</name></author><category term="v1.0.0" /><category term="update" /><category term="releases" /><category term="beta" /><summary type="html">So remember when we said that HospitalRun 1.0 would be out in April?</summary></entry><entry><title type="html">Coming Soon! HospitalRun 1.0</title><link href="http://localhost:4000/blog/coming-soon-hospitalrun-10/" rel="alternate" type="text/html" title="Coming Soon! HospitalRun 1.0" /><published>2016-11-15T08:00:00+08:00</published><updated>2016-11-15T08:00:00+08:00</updated><id>http://localhost:4000/blog/coming-soon-hospitalrun-10</id><content type="html" xml:base="http://localhost:4000/blog/coming-soon-hospitalrun-10/">&lt;p&gt;So by now you’re probably wondering, when are we ever going to ship &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend&quot;&gt;HospitalRun 1.0&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Well, we finally have some good news to share. After months of iterative requirements work with doctors and partners, we have a GitHub project that defines &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/projects/2&quot;&gt;what we mean by “done” for release 1.0&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;great-when-is-it-going-to-be-done&quot;&gt;Great! When is it going to be done?&lt;/h2&gt;
+
+&lt;p&gt;That depends on you. At our current pace, we’re confident that HospitalRun 1.0 will be released by or before April 1, 2017; but with your help, it could be a lot sooner!&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-done-mean&quot;&gt;What does “done” mean?&lt;/h2&gt;
+
+&lt;p&gt;Releasing 1.0 is just the first, important milestone in what we believe will be a transformative project. Of course, the project development will be ongoing; but we want to get HospitalRun to a state where the project team could feel good about facilities downloading and trying the system. Our hope is that those initial deployments will not only drive more feature development but also the creation of one of our long-term goals: an online service for hosted HospitalRun instances.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-the-feature-set-for-hospitalrun-10&quot;&gt;What is the feature set for HospitalRun 1.0?&lt;/h2&gt;
+
+&lt;p&gt;So what precisely is in HospitalRun 1.0? We’re glad you asked. Here’s the high-level list.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Electronic Medical Records, focused primarily around outpatient department (OPD) support&lt;/li&gt;
+&lt;li&gt;Queueing systems for Imaging and Labs but without LIS or DICOM integration (though you can work on it :))&lt;/li&gt;
+&lt;li&gt;Pre and post operative notes and report&lt;/li&gt;
+&lt;li&gt;Discharge notes and report&lt;/li&gt;
+&lt;li&gt;Quality Incident Management&lt;/li&gt;
+&lt;li&gt;Inventory Management&lt;/li&gt;
+&lt;li&gt;pre-release Billing&lt;/li&gt;
+&lt;li&gt;Release 1.0 Deployment instructions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;how-can-you-help&quot;&gt;How can you help?&lt;/h1&gt;
+
+&lt;p&gt;If you’re a developer and either have contributed to HospitalRun or have considered it, now would be a great to help us get 1.0 across the proverbial finish line. You can find the project board &lt;a href=&quot;https://github.com/HospitalRun/hospitalrun-frontend/projects/2&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To start, &lt;a href=&quot;https://hospitalrun-slack.herokuapp.com&quot;&gt;join the project Slack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;interested-in-deploying-hospitalrun&quot;&gt;Interested in deploying HospitalRun?&lt;/h1&gt;
+
+&lt;p&gt;And if you’re a hospital interested in deploying HospitalRun once it’s officially “shipped,” you can join the email list below to receive an update as soon as the project is ready to install.&lt;/p&gt;</content><author><name>Joel Worrall</name></author><category term="update" /><category term="releases" /><category term="v1.0.0" /><summary type="html">So by now you're probably wondering, when are we ever going to ship HospitalRun 1.0?</summary></entry><entry><title type="html">Why HospitalRun?</title><link href="http://localhost:4000/blog/why-hospitalrun/" rel="alternate" type="text/html" title="Why HospitalRun?" /><published>2016-06-07T06:00:00+08:00</published><updated>2016-06-07T06:00:00+08:00</updated><id>http://localhost:4000/blog/why-hospitalrun</id><content type="html" xml:base="http://localhost:4000/blog/why-hospitalrun/">&lt;p&gt;Since this open source project really started to gather momentum in December 2015 after a posting on &lt;a href=&quot;https://news.ycombinator.com/item?id=10675275&quot;&gt;Hacker News&lt;/a&gt;, I’ve been asked several times to talk about the genesis of HospitalRun and why a few people working for an under-resourced health care charity would be foolish enough to start yet another open source EMR/HIS project.&lt;/p&gt;
+
+&lt;p&gt;This article tries to answer that question: Why HospitalRun?&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Note: &lt;a href=&quot;http://goo.gl/NCJDnJ&quot;&gt;Click here&lt;/a&gt; for the Google Doc justification paper titled, “Why HospitalRun?”&lt;/i&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2012-in-kenya&quot;&gt;2012: In Kenya&lt;/h1&gt;
+
+&lt;p&gt;The journey that led to HospitalRun started in 2012 at a &lt;a href=&quot;http://cure.org&quot;&gt;CURE International&lt;/a&gt; hospital in &lt;a href=&quot;http://cure.org/kenya&quot;&gt;Kijabe, Kenya&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Like all CURE hospitals, &lt;a href=&quot;http://cure.org/kenya&quot;&gt;CURE Kenya&lt;/a&gt; primarily treats children with surgically correctible conditions. Things like clubfoot, bowed legs, cleft lip and palate, and other conditions that are commonly addressed by public health initiatives in areas of the world with more resources - all these are the primary mission of CURE. Issues of &lt;a href=&quot;http://www.essentialsurgery.com/&quot;&gt;essential surgery&lt;/a&gt; and the kids CURE treats tend to be on the bottom of priority lists in the resource-scarce environments of low-to-medium income countries (commonly referred to as “the developing world”).&lt;/p&gt;
+
+&lt;p&gt;Back in April 2012, I was in Kenya to check out the effectiveness of a &lt;a href=&quot;http://cure.org/curekids&quot;&gt;real-time patient reporting platform&lt;/a&gt; CURE had just released, to see how our embedded bloggers were performing their day-to-day job.&lt;/p&gt;
+
+&lt;p&gt;That’s when I saw this.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/assets/img/kenya_medical_records.jpg&quot; width=&quot;90%&quot; /&gt;&lt;br /&gt;
+  &lt;em&gt;The medical record system at the CURE hospital in Kenya, 2012&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Not surprisingly, this was the medical records system for a hospital that had been providing life-changing treatment to children throughout Kenya since 1998. In and of itself, paper-based records in low resource environments are &lt;i&gt;not&lt;/i&gt; that surprising, and there are plenty of commercial and open source projects that have tried (one might argue unsuccessfully) to &lt;i&gt;truly&lt;/i&gt; solve the issue of moving health management away from paper record-keeping to electronic systems.&lt;/p&gt;
+
+&lt;p&gt;However, it was when I saw this that I knew we had an even bigger problem to solve.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/assets/img/kenya_medical_records_2.jpg&quot; width=&quot;90%&quot; /&gt;&lt;br /&gt;
+  &lt;em&gt;Doctors and clinicians at CURE's hospital in Kenya, loading medical record bins onto an ambulance that is headed out on a mobile clinic&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You see, that day, I was heading &lt;i&gt;off campus&lt;/i&gt; with a team from the CURE hospital to conduct what we refer to as a “mobile clinic.”&lt;/p&gt;
+
+&lt;p&gt;Because CURE provides such specialized care, we attract and treat patients from throughout the country, 3-4 times per year and in regions throughout Kenya, a team from the hospital will visit an area 6-8 hours away from the hospital to see hundreds of children and their parents in one day. Some of these children are patients receiving long-term follow-up care. The majority are parents desperate to find a cure for their little boy or girl, bringing them to a CURE clinic to learn whether or not we can help.&lt;/p&gt;
+
+&lt;p&gt;I watched as our dedicated staff organized a clinic of 400 children and their parents, digging through boxes of medical records, often loosing valuable time and energy, trying to assign new patients to new charts, asking patients to shuffle their medical records through the queues, and sometimes loosing track of who had what data. The team did (as always) an admirable job, and at the end of the clinic, dozens of children had been scheduled for life-changing surgeries… but it was clear there was a problem.&lt;/p&gt;
+
+&lt;p&gt;Experiencing that mobile clinic helped me &lt;i&gt;feel&lt;/i&gt; that problem. This wasn’t just an EMR (electronic medical record) problem. This was an offline problem.&lt;/p&gt;
+
+&lt;h2 id=&quot;an-offline-problem&quot;&gt;An Offline Problem&lt;/h2&gt;
+
+&lt;p&gt;As a software professional, I knew that the right, long-term decision for any software solution was to go to the cloud, but this environment presented two big challenges - challenges that (heretofore) have dissuaded technology professionals from moving to a cloud solution for low resource parts of the world:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Unreliable infrastructure: The reality is that Internet reliability globally continues to improve, but it is far from ubiquitous and anything but reliable.&lt;/li&gt;
+  &lt;li&gt;Disconnected environments: health providers like CURE have patients that may live far enough away from the facility to require travel. Therefore, having the option to carry medical records outside of the facility was a real need.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When I got to my office in Pennsylvania, I shared what I saw, and (subsequently) my colleague &lt;a href=&quot;http://twitter.com/jkleinsc&quot;&gt;John&lt;/a&gt; started working with a design paradigm called &lt;a href=&quot;http://alistapart.com/article/offline-first&quot;&gt;Offline First&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;2012-an-offline-first-database&quot;&gt;2012: An Offline First Database&lt;/h1&gt;
+
+&lt;p&gt;The core concept of Offline First is simple: stop treating the lack of connectivity in a web-based app as an error condition. Instead, make the application resilient to interruptions in connectivity. Native frameworks and modern browsers as well as many modern web frameworks provide tools to make this not only possible but increasingly transparent to not only the end user but also the application developer.&lt;/p&gt;
+
+&lt;p&gt;So, we started working with the technology. That &lt;i&gt;did not&lt;/i&gt; mean we wanted to start an open source project. Far from it.&lt;/p&gt;
+
+&lt;p&gt;Back in 2012, we never had the interest or inclination to try to tackle an entire hospital information system, led alone start an open source project. Instead, we decided to explore offline first principles in service to a challenging-but-smaller problem, a research database need we had for a program inside CURE called &lt;a href=&quot;http://cure.org/hydrocephalus&quot;&gt;CURE Hydrocephalus&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/assets/img/hydrodb.png&quot; width=&quot;90%&quot; /&gt;&lt;br /&gt;
+  &lt;em&gt;Reviewing patient records in the CURE offline first hydrocephalus database - an offline first web application built for Chrome&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;By Fall 2012, that research database was deployed in 14 countries, primarily in subSaharan Africa. We learned a lot from that project, but now we needed to address the larger issue of a complete HIS (hospital information system) solution.&lt;/p&gt;
+
+&lt;h1 id=&quot;2013-evaluating-options&quot;&gt;2013: Evaluating Options&lt;/h1&gt;
+
+&lt;p&gt;Like all good programmers, we’re lazy - disinterested in &lt;i&gt;re&lt;/i&gt;-solving problems. We already had too much work to do supporting CURE, and if there were appropriate, affordable solutions out there for our HIS requirements, we would have &lt;i&gt;loved, loved, loved&lt;/i&gt; to have found one.&lt;/p&gt;
+
+&lt;p&gt;We just happen to work at the intersection of two sectors that needs a lot of innovation: &lt;b&gt;non-profit and health care&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, we spent 2013 evaluating technologies and trying to find a solution that could meet the needs of the CURE International network.&lt;/p&gt;
+
+&lt;p&gt;We knew that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We were committed to the cloud: not just because of total cost-of-delivery or the need to deliver changes uniformly and rapidly but also because we needed to be able to provide complete remote administration and monitoring.&lt;/li&gt;
+  &lt;li&gt;We were committed to web technology: installing and managing software in the field wasn’t an option.&lt;/li&gt;
+  &lt;li&gt;We wanted a solution focused on clinical and administrative usability: This was more than just “liking the way it looks.” When it comes to user experience, we needed a solution that addressed the very real training and &lt;a href=&quot;https://medium.com/tragic-design/how-bad-ux-killed-jenny-ef915419879e#.66xdc7kfn&quot;&gt;even patient safety issues&lt;/a&gt; that a lack of attention to UI and UX can cause.&lt;/li&gt;
+  &lt;li&gt;We needed a system that could deal with our low-resource requirements: rather than trying to jam our needs into a Western health care model, we needed the flexibility to keep things as simple and intuitive as possible.&lt;/li&gt;
+  &lt;li&gt;We needed a solution that allowed us to carry records outside the hospital walls: our delivery model demanded it. Thus the offline first considerations were a given.&lt;/li&gt;
+  &lt;li&gt;We needed to be able to support it: we actually pursued at least two potential offers of “free” licensing on commercial products. Each time, it came down to the same problems. We weren’t convinced that we could successfully implement, and we couldn’t afford it - even for “free.” The hardware costs were significant and even if those systems were donated, we couldn’t attract or retain the talent needed to keep those systems running well locally at the hospitals (to say nothing of the not-very-cloud-friendly nature of many of those offerings).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And, we knew that the tide was turning with regards to digital health.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/assets/img/2015-Year-in-Review_Website_Updated.0011-1200x625.jpeg&quot; width=&quot;90%&quot; alt=&quot;2015 analysis of investment in digital health solutions by Rock Health&quot; /&gt;&lt;br /&gt;
+  &lt;em&gt;&lt;a href=&quot;https://rockhealth.com/reports/digital-health-funding-2015-year-in-review/&quot; target=&quot;_blank&quot;&gt;Rock Health's 2015 analysis&lt;/a&gt; demonstrates a significant trend in the rise of digital health solutions (and therefore investment)&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;So, in early 2014, we re-examined the work we had done with our offline first hydrocephalus research database and determined to take what we learned there and apply it to a brand new effort.&lt;/p&gt;
+
+&lt;h1 id=&quot;2014-starting-hospitalrun&quot;&gt;2014: Starting HospitalRun&lt;/h1&gt;
+
+&lt;p&gt;But if we were going to start over, we were convinced we needed to go open source. The only sustainable project would be one that was useful for thousands of potential facilities - not just the CURE International network.&lt;/p&gt;
+
+&lt;p&gt;So, we set out to seriously examine the existing open source health projects. Many of them had done some good work, but for a variety of reasons - either because of a lack of ability to influence the community, the very clear lack of focus on UX, or the practical need we would have to completely rearchitect their undelying technology - we were faced with the option we didn’t want: starting a new project.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/assets/img/screenshot-mock-sm.jpg&quot; alt=&quot;HospitalRun&quot; width=&quot;90%&quot; /&gt;&lt;br /&gt;
+  &lt;em&gt;The HospitalRun project was unsuspiciously launched in 2014 at a piece of &lt;a href=&quot;https://www.google.com/maps/place/701+Bosler+Ave,+Lemoyne,+PA+17043/data=!4m2!3m1!1s0x89c8c199d4c8f2b1:0x78b1c766ad2e2f6e?sa=X&amp;amp;ved=0ahUKEwiK28WYtqHNAhWDGD4KHZZaDxkQ8gEIGzAA&quot; target=&quot;_blank&quot;&gt;D-level commercial real estate in Lemoyne, Pennsylvania&lt;/a&gt;.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;quantifying-the-unaddressed-need&quot;&gt;Quantifying the unaddressed need&lt;/h2&gt;
+
+&lt;p&gt;We had a sense that if CURE International - a network of hospitals that was receiving some source of funding from the US, Canada, and the UK - was struggling with this issue, that there could be thousands of other facilities in low-to-medium income countries with the same problems. However, validating that sense with facts was harder than you might think. There seemed to be no clear research answering the question: how many hospitals &lt;i&gt;are&lt;/i&gt; in low-to-medium income countries?&lt;/p&gt;
+
+&lt;p&gt;So, we did some research ourselves.&lt;/p&gt;
+
+&lt;p&gt;We put together a mashup of &lt;a href=&quot;http://goo.gl/fKbG9k&quot;&gt;UN&lt;/a&gt; and &lt;a href=&quot;http://goo.gl/WlZrgl&quot;&gt;WHO&lt;/a&gt; data in order to try to estimate how many hospitals are in low-to-medium income countries. The result of that work is published &lt;a href=&quot;http://goo.gl/38MVD0&quot;&gt;here&lt;/a&gt;, and we referenced our estimate, nearly 14,000 hospitals in low-to-medium income countries, in our first justification paper, titled &lt;a href=&quot;http://goo.gl/NCJDnJ&quot;&gt;“Why HospitalRun?”&lt;/a&gt; &lt;i&gt;Side note: A year later, I was speaking with another CTO and contributor to HospitalRun about that research and was told that our numbers were way off - that we completely underestimated.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;The bottom line is that there’s a huge, unaddressed need.&lt;/p&gt;
+
+&lt;p&gt;So in early 2014, we launched the HospitalRun open source project, choosing &lt;a href=&quot;http://emberjs.com&quot;&gt;Ember&lt;/a&gt; and &lt;a href=&quot;https://pouchdb.com/&quot;&gt;PouchDB&lt;/a&gt; for the front end project and &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node&lt;/a&gt; and &lt;a href=&quot;http://couchdb.apache.org/&quot;&gt;CouchDB&lt;/a&gt; for the back end.&lt;/p&gt;
+
+&lt;p&gt;In September of that year, we did the first early (probably too early) deployment of the system at the CURE hospital in the &lt;a href=&quot;http://cure.org/philippines&quot;&gt;Philippines&lt;/a&gt;, and we’re scheduled to release a 1.0 by or before April 1, 2017.&lt;/p&gt;
+
+&lt;h1 id=&quot;goals-for-hospitalrun&quot;&gt;Goals for HospitalRun&lt;/h1&gt;
+
+&lt;p&gt;But we were not interested in running the favour-of-the-year open source health project, merely choosing today’s “cool tools” and fading out in 3-4 years. Instead, we’ve worked to establish very specific goals for why we’re doing what we’re doing. Those are:&lt;/p&gt;
+
+&lt;h2 id=&quot;1-building-specifically-for-low-to-medium-income-countries&quot;&gt;1) Building specifically for low-to-medium income countries&lt;/h2&gt;
+
+&lt;p&gt;This is about more than supporting internationalization (which HospitalRun does). Building software for the developing world is about embracing the realities of lower-resource settings as a driver - rather than a constraint - for innovation. When you can’t health-care-consultant your way out of a problem, it reframes the opportunity to produce a truly useful solution that is focused on meeting the needs (technical, business, and otherwise) of those environments.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/assets/img/CURE_Map_June15-1.png&quot; width=&quot;90%&quot; alt=&quot;Environments like the places CURE and thousands of other health care providers serve can't afford Western solutions on multiple levels&quot; /&gt;&lt;br /&gt;
+  &lt;em&gt;Low-to-medium income countries need a solution focused on their needs rather than porting the constraints of Western medicine to the majority world&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;2-making-usability-the-1-requirement&quot;&gt;2) Making Usability the #1 requirement&lt;/h2&gt;
+
+&lt;p&gt;The lack of attention to user experience or even the user interface in electronic health solutions has generated a track record of confusion and cost, as high-paid consultants are needed to enforce less-than-optimal solutions onto teams. The settings for which we’re building have no such conquistador-like luxury, where teams of health care IT professionals can enforce change. In many of these settings, there may even be little financial incentive to enforce record-keeping policy.&lt;/p&gt;
+
+&lt;p&gt;Yet rather than lament those constraints, we’re choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and administrative. So we set out to build a solution that people might even (…dream with me) enjoy using, and we brought UX expertise into the core maintainer team of the project to help hold us accountable to producing the kind of solution that strives to delight users.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/assets/img/burning-ships.jpg&quot; width=&quot;50%&quot; alt=&quot;Cortes burns the ships on the coast of Mexico&quot; /&gt;&lt;br /&gt;
+  &lt;em&gt;Hiring a team of highly-paid/highly-qualified consultants because you've &quot;burned the ships&quot; on your decision to implement an EMR/HIS isn't a realistic option in low-to-medium income health care  environments  &lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;But we didn’t want to limit our usability goals to just clinical or even administrative users. What if we could build a system that was easy to setup, administer, and upgrade? And what if we could build an open source project that was… wait for it… easy to contribute to? (No more spending a day polishing your secret decoder ring to make a contribution.) Could we build a system that allows someone to make a meaningful contribution in one 8-hour day?&lt;/p&gt;
+
+&lt;p&gt;That’s what we set out to do with usability: make HospitalRun the most ambitious AND delightful open source health project in the world - for users, administrators, and contributors. We still think we have a long way to go, but that’s the goal - making usability #1.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-solving-for-time&quot;&gt;3) Solving for Time&lt;/h2&gt;
+
+&lt;p&gt;A recent survey of Western health care practitioners found that &lt;a href=&quot;http://goo.gl/293J6t&quot;&gt;20% of their time&lt;/a&gt; was being spent on administrative tasks that (arguably) had little to do with improving the quantity or quality of care being provided. Much of that time was caused by - rather than improved by - the software they were using.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/assets/img/11clock.png&quot; style=&quot;max-width:200px&quot; alt=&quot;11 o'clock, tick tock&quot; /&gt;&lt;br /&gt;
+  &lt;em&gt;&quot;How are we saving time for users of HospitalRun?&quot; is one of the primary considerations in any feature.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;With HospitalRun, we saw the opportunity to give health care professionals in exceptionally constrained environments back the only resource we can’t make more of: their time.&lt;/p&gt;
+
+&lt;p&gt;Going forward, we’re purposing to metric the system to not only inform requirements but also to baseline the time it takes to accomplish common tasks so that future feature development can seek to improve on those measurements. The result of every feature should be time given back to more doctors, nurses, and administrators so that their attention can go where it should - on the patients and families they serve.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-embracing-offline-first&quot;&gt;4) Embracing Offline First&lt;/h2&gt;
+
+&lt;p&gt;Not only because offline first met our “carry records into the field” requirement but also because we believe that it’s just the right thing to do with modern business applications, we wanted to make offline first a core principle of the project from the beginning.&lt;/p&gt;
+
+&lt;p&gt;
+ &lt;img src=&quot;/assets/img/ALA386_designoffline.jpg&quot; alt=&quot;offline first&quot; style=&quot;max-height:300px&quot; /&gt;&lt;br /&gt;
+ &lt;em&gt;HospitalRun embraces the principles of offline first&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;5-more-than-a-download&quot;&gt;5) More than a Download&lt;/h2&gt;
+
+&lt;p&gt;Deploying software isn’t like installing a refrigerator that you spec out, buy, plug in, walk away from, and expect to work perfectly until the compressor dies. This is clear to the business world, as the rise of software as a service models are driving home not only the effectiveness but the lower total cost of ownership in signing on to a service that has ongoing, continuous improvement and maintenance.&lt;/p&gt;
+
+&lt;p&gt;Yet far too often (and even particularly today with open source projects), we treat software solutions like a utility that is installed once and expected to meet all our needs until the day it is replaced (much like a kitchen appliance). The reality couldn’t be further from the truth. Innovation and support need the opportunity for continuous upgrades, and HospitalRun is committed to a future where the HospitalRun code is only a part of the overall open source project.&lt;/p&gt;
+
+&lt;p&gt;We’re building an open source service.&lt;/p&gt;
+
+&lt;p&gt;
+ &lt;img src=&quot;/assets/img/software-refrigerator.jpg&quot; alt=&quot;software isn't a refridgerator&quot; style=&quot;max-height:300px&quot; /&gt;&lt;br /&gt;
+ &lt;em&gt;Software isn't a refrigerator, so HospitalRun is building a service&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;6-partnering-to-make-a-difference&quot;&gt;6) Partnering to Make a Difference&lt;/h2&gt;
+
+&lt;p&gt;It seems to us that HospitalRun:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;as an open source project,&lt;/li&gt;
+  &lt;li&gt;backed / incubated by an international NGO,&lt;/li&gt;
+  &lt;li&gt;focused on issues of global health and data, and&lt;/li&gt;
+  &lt;li&gt;committed to modern, cloud technologies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;holds a tremendous opportunity to partner the NGO, government, and tech sectors in a problem that has mutual interest and benefit.&lt;/p&gt;
+
+&lt;p&gt;It’s almost as if, by &lt;b&gt;working together&lt;/b&gt;… we just might have a fighting chance of changing the world.&lt;/p&gt;
+
+&lt;p&gt;Moreover, through initiatives like our &lt;a href=&quot;/lisbon&quot;&gt;Hack Day&lt;/a&gt; events, we’re seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility, opportunity, and innovative technology.&lt;/p&gt;
+
+&lt;h1 id=&quot;now-what&quot;&gt;Now what?&lt;/h1&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dA2Sxci_hTk?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;i&gt;Thanks to our friends at &lt;a href=&quot;http://newrelic.com&quot;&gt;New Relic&lt;/a&gt; for contributing this video&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the things we’re putting a lot of energy into for HospitalRun is the usability experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops.&lt;/p&gt;
+
+&lt;p&gt;If you think you’d be interested in getting involved in the project, we’d love to have you start by &lt;a href=&quot;https://hospitalrun-slack.herokuapp.com/&quot;&gt;joining our Slack&lt;/a&gt;. At minimum, share this post with someone or someones to help us meet more people who might be interested in &lt;a href=&quot;/contribute&quot;&gt;contributing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;and-finally-a-huge-thank-you&quot;&gt;And Finally, a HUGE Thank you&lt;/h1&gt;
+
+&lt;p&gt;To date, dozens of people have contributed to what’s been accomplished already with HospitalRun, and hundreds more are actively tracking with the project. On behalf of the entire HospitalRun core team as well as the kids and families we’re serving together - to everyone who’s taken part in the project in these early days, for those who will contribute in the weeks, months, and years to come, and most-importantly for the people who make HospitalRun a regular and recurring part of their contribution to the world, thank you!&lt;/p&gt;
+
+&lt;p&gt;There are literally thousands of children, mothers, fathers, grandparents, and the like who’s lives can, have, and will be impacted… perhaps even saved… by all of us working diligently and collaboratively on this project.&lt;/p&gt;</content><author><name>Joel Worrall</name></author><category term="v1.0.0" /><summary type="html">This article tries to answer that question: Why HospitalRun?</summary></entry><entry><title type="html">HospitalRun early release in September 2014</title><link href="http://localhost:4000/blog/hospitalrun-early-release-in-september-2014/" rel="alternate" type="text/html" title="HospitalRun early release in September 2014" /><published>2014-08-25T15:14:30+08:00</published><updated>2014-08-25T15:14:30+08:00</updated><id>http://localhost:4000/blog/hospitalrun-early-release-in-september-2014</id><content type="html" xml:base="http://localhost:4000/blog/hospitalrun-early-release-in-september-2014/">&lt;p&gt;This September, HospitalRun will have it's first private release in the Philippines at the Tebow CURE Hospital in Davao City, Mindanao.
+&lt;br /&gt;
+Look for public demo site by October 1.
+&lt;br /&gt;
+We're also shooting for a publicly available beta service in Q1 2015.&lt;/p&gt;</content><author><name>Joel Worrall</name></author><category term="update" /><category term="philippines" /><category term="releases" /><category term="v1.0.0" /><summary type="html">This September, HospitalRun will have it's first private release in the Philippines at the Tebow CURE Hospital in Davao City, Mindanao.</summary></entry></feed>
