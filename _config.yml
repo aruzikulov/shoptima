@@ -1,21 +1,21 @@
 # Site settings
-title: "HospitalRun - Open source software for developing world hospitals"
-title_credits: "HospitalRun"
-email: "hello@hospitalrun.io"
-description: "Free, easy-to-use software for developing world healthcare."
+title: "SHOPTIMA - O'zbek-Xitoy Savdo Uyi"
+title_credits: "SHOPTIMA"
+email: "shoptima@yandex.com"
+description: "Xitoydan barcha turdagi uskunalar, texnikalar va tovarlarni O'zbekistonga yetkazib bersih xizmati"
 keywords: "hospitalrun, nodejs, react, offline-first application, docker, modern hospital information system"
-baseurl: "https://aruzikulov.github.io/shoptima/"
-url: "https://aruzikulov.github.io/shoptima/"
+baseurl: ""
+url: "https://shoptima.uz"
 cover_image: "https://aruzikulov.github.io/shoptima/img/bg-img-patients.jpg"
-# facebook: "https://www.facebook.com"
-twitter: "https://twitter.com/hospitalrun"
-github: "https://github.com/HospitalRun/"
+facebook: "https://www.facebook.com/shoptima.uz"
+twitter: "https://twitter.com/shoptima_uz"
+github: "https://github.com/aruzikulov/shoptima/"
 linkedin: "https://www.linkedin.com/company/27045539"
 youtube: "https://www.youtube.com/channel/UCkHnYX7XQlam77j4Wx6NJCA"
 
 ## Theme Options
-twitter_username: hospitalrun
-github_username: hospitalrun
+twitter_username: aruzikulov
+github_username: aruzikulov
 
 # Build settings
 markdown: kramdown
