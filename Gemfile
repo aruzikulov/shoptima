@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem 'github-pages'
+gem 'jekyll'
 
 # Default theme for new Jekyll sites.
 gem "minima", "~> 2"

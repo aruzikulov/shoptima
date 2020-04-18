@@ -1,7 +1,7 @@
 {
   "name": "aruzikulov.github.io/shoptima",
   "version": "2.0.0",
-  "description": "HospitalRun website.",
+  "description": "SHOPTIMA website.",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",
@@ -13,7 +13,7 @@
     "url": "git://https://github.com/aruzikulov/shoptima.git"
   },
   "bugs": {
-    "url": "https://github.com/HospitalRun/hospitalrun.github.io/issues"
+    "url": "https://github.com/aruzikulov.github.io/issues"
   },
   "dependencies": {
     "concat": "^3.0.0",
