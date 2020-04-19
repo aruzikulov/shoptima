@@ -1,13 +1,11 @@
+- title: "<span>SHOPTIMA:</span> O'zbek-Xitoy Savdo Uyi"
+  button_label: "Katalog"
+  button_link: "https://telegra.ph/SHOPTIMA-Katalog-03-20"
 
-- title: "Free, easy-to-use software for
-developing <span>world healthcare</span>."
-  button_label: "Donate!"
-  button_link: "https://opencollective.com/hospitalrun"
+- title: "Xitoydan <span>barcha turdagi uskunalarni</span> O'zbekistonga yetkazib beramiz"
+  button_label: "Batafsil"
+  button_link: "https://shoptima.uz"
 
-- title: "<span>HospitalRun</span> is an offline-first EHR/HIS application."
-  button_label: "Collaborate"
-  button_link: "https://github.com/HospitalRun"
-
-- title: "Built to provide a modern HIS to the <span>least resourced environments</span>."
-  button_label: "Try it"
+- title: "Uskunalar faqat <span>birinchi qo'ldan</span> olinadi. Bizda narxlar arzonroq!"
+  button_label: "Batafsil"
   button_link: "/tryit"
