@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Help Wanted
+title: Hamkorlikka taklif qilamiz
 pexels: true
 date: 2018-07-01 12:00:00 Z
 tags: ["v1.0.0", contributor]

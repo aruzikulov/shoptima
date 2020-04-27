@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coming Soon! HospitalRun 1.0"
+title: "Coming Soon! SHOPTIMA 1.0"
 date: 2016-11-15 00:00:00 Z
 pexels: true
 tags: [update, releases, "v1.0.0"]

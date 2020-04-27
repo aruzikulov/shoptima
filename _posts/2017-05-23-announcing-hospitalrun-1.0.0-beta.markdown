@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Announcing HospitalRun 1.0.0 Beta"
+title: "Announcing SHOPTIMA 1.0.0 Beta"
 date: 2017-05-23 00:00:00 Z
 pexels: true
 tags: ["v1.0.0", update, releases, beta]

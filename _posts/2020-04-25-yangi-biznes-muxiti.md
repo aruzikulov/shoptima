@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A New Beginning"
+title: "Yangi biznes muxiti"
 date: 2019-08-07 10:45:00 +0100
 tags: [update, "v2.0.0"]
 pexels: true

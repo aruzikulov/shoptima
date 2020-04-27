@@ -1,5 +1,5 @@
 ---
-title: A Roadmap to HospitalRun 1.0
+title: Bizning uzoq muddatli rejamiz
 date: 2018-02-26 12:00:00 Z
 tags: ["v1.0.0", update, roadmap, releases]
 pexels: true

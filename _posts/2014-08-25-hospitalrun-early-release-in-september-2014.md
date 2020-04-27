@@ -1,7 +1,7 @@
 ---
 layout: post
 pexels: true
-title: "HospitalRun early release in September 2014"
+title: "SHOPTIMAning boshlanishi, August 2012"
 date: 2014-08-25 8:14:30 +0100
 tags: [update, philippines, releases, "v1.0.0"]
 post_image: https://images.pexels.com/photos/628244/pexels-photo-628244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260

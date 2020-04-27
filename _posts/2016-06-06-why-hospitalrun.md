@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why HospitalRun?"
+title: "Nega SHOPTIMA?"
 date: 2016-06-06 22:00:00 Z
 tags: ["v1.0.0"]
 pexels: true
