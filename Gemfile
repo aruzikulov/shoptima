@@ -3,6 +3,8 @@ gem 'jekyll'
 
 # Default theme for new Jekyll sites.
 gem "minima", "~> 2"
+gem "kramdown-parser-gfm"
+gem "webrick"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
